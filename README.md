@@ -1,30 +1,34 @@
-# React + TypeScript + Vite
+# Focusflow – Pomodoro Timer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Focusflow is a web application designed to help you improve your productivity using the Pomodoro technique. Built with Vite, ReactJS, and TypeScript, Focusflow offers a seamless and efficient user experience for managing work sessions and short breaks.
 
-Currently, two official plugins are available:
+## Features
+- Pomodoro Timer: Display timer of work sessions and short breaks.
+- Modes: Comes with 30 work sessions and 2 min short breaks.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies
+- `Vite`
+- `Reactjs`
+- `Typescript`
+- `Untitled Icons`
 
-## Expanding the ESLint configuration
+## Demo
+Check out the live demo of Focusflow here.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+## Installation
+To run Focusflow locally, follow these steps:
 ```
+>> git clone https://github.com/bishwamandal/Focusflow.git
+>> npm install
+>> npm run dev
+```
+Open `http://localhost:5173` (or the address shown in your console) in your web browser to view the app.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Issues
+- Conic-gradient is not working :(
+
+## Contribution
+Contributions are welcome to improve the quality and completeness of the learning resources in this repository. Please open an issue or submit a pull request if you have any suggestions or improvements to share.
+
+
+
