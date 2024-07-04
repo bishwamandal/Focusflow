@@ -62,7 +62,7 @@ const PomodoroTimer: React.FC = () => {
   return (
     <div className="container">
       <div className="card-header">
-        <h1>Focusflow</h1>
+        <h1>Focus–flow</h1>
         <div className="card-header-buttons">
           <button
             id="buttonTypePomodoro"
