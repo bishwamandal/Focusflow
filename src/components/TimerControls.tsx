@@ -10,15 +10,15 @@ const TimerControls: React.FC<TimerControlsProps> = React.memo(({ onStart, onSto
   return (
     <div className="card-footer">
       <button className="btn-success" onClick={onStart}>
-        <img className="play" src="../assets/icons/play.svg" alt="Play" />
+        <img className="play" src="/src/assets/icons/play.svg" alt="Play" />
         Start
       </button>
       <button className="btn-danger" onClick={onStop}>
-        <img className="stop" src="../assets/icons/pause.svg" alt="Stop" />
+        <img className="stop" src="/src/assets/icons/pause.svg" alt="Stop" />
         Stop
       </button>
       <button className="btn-reset" onClick={onReset}>
-        <img className="reset" src="../assets/icons/reset.svg" alt="Reset" />
+        <img className="reset" src="/src/assets/icons/reset.svg" alt="Reset" />
         Reset
       </button>
     </div>
