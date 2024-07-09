@@ -1,15 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @font-face {
-  font-family: "Geist Sans";
+  font-family: 'Geist Sans';
   src: url(/src/assets/fonts/GeistVariableVF.woff2) format("woff2");
 }
 
 @font-face {
-  font-family: "Geist Mono";
+  font-family: 'Geist Mono';
   src: url(/src/assets/fonts/GeistMonoVF.woff) format("woff"),
     url(/src/assets/fonts/GeistMonoVF.woff2) format("woff2");
-}
-
-:root {
-  --primary-font: "Geist Sans", 'Inter', -apple-system, sans-serif;
-  --mono-font: "Geist Mono", monospace;
 }

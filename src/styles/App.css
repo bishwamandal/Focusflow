@@ -30,61 +30,6 @@ body {
   background-color: #000;
 }
 
-.container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.card-header {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 8px;
-}
-
-.card-header h1 {
-  font-family: var(--primary-font);
-  font-weight: 500;
-  font-size: 64px;
-  font-style: normal;
-  letter-spacing: -3.4px;
-  color: #fff;
-}
-
-.card-header-buttons {
-  display: flex;
-  justify-content: stretch;
-  gap: 12px;
-  padding: 8px;
-  border: #2E2E2E 2px solid;
-  border-radius: 20px;
-}
-
-.card-header-buttons button {
-  padding: 12px 24px;
-  border-radius: 12px;
-  font-family: var(--primary-font);
-  font-weight: 500;
-  font-size: 16px;
-  letter-spacing: -0.8px;
-  background-color: #000;
-  border: none;
-  color: rgba(255, 255, 255, 0.4);
-  transition: ease 0.3s;
-}
-
-.card-header-buttons button:hover {
-  background-color: #1A1A1A;
-}
-
-.card-header-buttons .active {
-  background-color: #2E2E2E;
-  color: #fff;
-}
-
 .card-body {
   display: flex;
   flex-direction: row;

@@ -60,20 +60,30 @@ const PomodoroTimer: React.FC = () => {
   }, [timeValue]);
 
   return (
-    <div className="container">
-      <div className="card-header">
-        <h1>Focusflow</h1>
-        <div className="card-header-buttons">
+    <div className="flex flex-col justify-center">
+      <div className="w-full flex flex-col float-start items-center">
+        <h1 className="font-primary font-weight-500 text-64px not-italic tracking-negative-3.4px text-white">
+          Focusflow
+        </h1>
+        <div className="flex justify-stretch gap-12px p-8px border-2px border-gray-6H rounded-20px">
           <button
             id="buttonTypePomodoro"
-            className={timerType === "POMODORO" ? "active" : ""}
+            className={`px-24px py-12px rounded-12px font-primary font-weight-500 text-16px tracking-negative-0.8px bg-black text-opacity-40 text-white transition duration-300 ease ${
+              timerType === "POMODORO"
+                ? "bg-gray-6H text-white text-opacity-100"
+                : "hover:bg-gray-9H"
+            }`}
             onClick={() => handleTimerTypeChange("POMODORO")}
           >
             Pomodoro
           </button>
           <button
             id="buttonTypeShortBreak"
-            className={timerType === "SHORTBREAK" ? "active" : ""}
+            className={`px-24px py-12px rounded-12px font-primary font-weight-500 text-16px tracking-negative-0.8px bg-black text-opacity-40 text-white transition duration-300 ease ${
+              timerType === "SHORTBREAK"
+                ? "bg-gray-6H text-white text-opacity-100"
+                : "hover:bg-gray-9H"
+            }`}
             onClick={() => handleTimerTypeChange("SHORTBREAK")}
           >
             Short Break
