@@ -10,6 +10,7 @@ Focusflow is a web application designed to help you improve your productivity us
 - `Vite`
 - `Reactjs`
 - `Typescript`
+- `Tailwind CSS`
 - `Untitled Icons`
 
 ## Demo
