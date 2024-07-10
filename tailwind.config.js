@@ -16,6 +16,7 @@ export default {
         '64px': '64px',
       },
       letterSpacing: {
+        'negative-0.6px': '-0.6px',
         'negative-0.8px': '-0.8px',
         'negative-3.4px': '-3.4px',
       },
@@ -58,6 +59,20 @@ export default {
       backgroundColor: {
         'gray-6H': '#2E2E2E',
         'gray-9H': '#1A1A1A',
+        'button-start': '#398E4A',
+        'button-start-hover': '#126426',
+        'button-pause': '#D93036',
+        'button-pause-hover': '#832126',
+        'button-reset': '#0062D1',
+        'button-reset-hover': '#0A4380',
+      },
+      width: {
+        'icon-w-21': '21px',
+        'icon-w-24': '24px',
+      },
+      height: {
+        'icon-h-21': '21px',
+        'icon-h-24': '24px',
       },
     },
   },
