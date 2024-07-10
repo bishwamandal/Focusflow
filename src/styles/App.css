@@ -75,68 +75,6 @@ body {
   color: white;
 }
 
-.card-footer {
-  display: flex;
-  justify-content: center;
-  gap: 12px;
-  padding: 12px 24px;
-}
-
-.card-footer button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 12px 24px;
-  border-radius: 12px;
-  color: white;
-  font-family: var(--primary-font);
-  font-weight: 500;
-  font-size: 16px;
-  letter-spacing: -0.6px;
-  border: none;
-  gap: 8px;
-  transition: ease 0.4s;
-}
-
-.card-footer .btn-success {
-  background-color: #398E4A;
-}
-
-.btn-success:hover {
-  background-color: #126426;
-}
-
-.btn-success img {
-  width: 21px;
-  height: 21px;
-}
-
-.card-footer .btn-danger {
-  background-color: #D93036;
-}
-
-.btn-danger:hover {
-  background-color: #832126;
-}
-
-.btn-danger img {
-  width: 24px;
-  height: 24px;
-}
-
-.btn-reset{
-  background-color: #0062D1;
-}
-
-.btn-reset img {
-  width: 21px;
-  height: 21px;
-}
-
-.btn-reset:hover {
-  background-color: #0A4380;
-}
-
 @keyframes pulse {
   0% {
     transform: scale(0.96);
