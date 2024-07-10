@@ -4,7 +4,7 @@ Focusflow is a web application designed to help you improve your productivity us
 
 ## Features
 - Pomodoro Timer: Display timer of work sessions and short breaks.
-- Modes: Comes with 30 work sessions and 2 min short breaks.
+- Modes: Comes with 30 work sessions and 5 min short breaks.
 
 ## Technologies
 - `Vite`
